@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="src/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Iconscout Link For Icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="task-input">
+        <!--<img src="bars-icon.svg" alt="icon">-->
+        
+        <input type="text" placeholder="Adicione uma Tarefa">
+      </div>
+      <div class="controls">
+        <div class="filters">
+          <span class="active" id="all">Tarefas</span>
+          <span id="pending">Fazer</span>
+          <span id="completed">Feito</span>
+        </div>
+        <button class="clear-btn">Apagar tudo</button>
+      </div>
+      <ul class="task-box"></ul>
+    </div>
+    <script src="src/script.js"></script>
+  </body>
+</html>
