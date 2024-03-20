@@ -1,3 +1,7 @@
+/*
+The purpose of the code is to allow you to select the tasks that have been done, check those that remain to be done and delete a task if necessary.
+*/
+
 const taskInput = document.querySelector(".task-input input"),
 filters = document.querySelectorAll(".filters span"),
 clearAll = document.querySelector(".clear-btn"),
